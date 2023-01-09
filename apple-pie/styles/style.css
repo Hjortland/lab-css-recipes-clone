@@ -1,0 +1,82 @@
+body {
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+h1 {
+    color: white;
+    bottom: 560px;
+    margin: 0 60px;
+    position: relative;
+    font-size: 4em;
+    font-weight: lighter;
+
+}
+
+h2 {
+    font-weight: lighter;
+    text-indent: 20px;
+}
+
+.container {
+
+    text-align: center;
+    position: relative;
+    margin: inherit;
+
+}
+
+.main-img {
+    width: 100%;
+    top: 0;
+    height: auto;
+    margin: 0;
+    padding-top: 0px;
+    
+
+}
+
+img {
+    height: 65px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    margin: 0 100px;
+    font-size: 1.6em;
+}
+
+.ingredients {
+    border-top: 1px solid black;
+    margin: 0 60px;}
+
+.directions {
+    border-top: 1px solid black;
+    margin: 0 60px;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
+ol {
+    list-style: none;
+}
+
+ol > li {
+    counter-increment: listcounter;
+}
+
+ol > li::before {
+    content: counter(listcounter) ") ";
+}
+
